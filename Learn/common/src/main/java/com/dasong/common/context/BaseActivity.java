@@ -94,5 +94,9 @@ abstract public class BaseActivity extends AppCompatActivity {
     public void showStatusBar(){
         iv_status.setVisibility(View.VISIBLE);
     }
+
+    public <V extends View> V $(int id){
+        return (V)findViewById(id);
+    }
 }
 

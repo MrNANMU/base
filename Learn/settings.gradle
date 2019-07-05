@@ -1,1 +1,1 @@
-include ':app', ':common', ':softboo'
+include ':app', ':common', ':softboo', ':dinghelper'
